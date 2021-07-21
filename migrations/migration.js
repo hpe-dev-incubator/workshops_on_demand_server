@@ -63,6 +63,11 @@ var migrationCommands = [
           allowNull: false,
           defaultValue: false,
         },
+        beta: {
+          type: Sequelize.BOOLEAN,
+          allowNull: false,
+          defaultValue: false,
+        },
         sessionId: {
           type: Sequelize.INTEGER,
         },
