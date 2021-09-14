@@ -62,6 +62,8 @@
  *            format: date-time
  *          compile:
  *            type: string
+ *          category:
+ *            type: string
  *        example:
  *           name: Grommet
  *           capacity: 20
@@ -120,6 +122,7 @@ module.exports = (sequelize, DataTypes) => {
       workshopImg: DataTypes.STRING,
       badgeImg: DataTypes.STRING,
       replayId: DataTypes.INTEGER,
+      category: DataTypes.STRING,
       createdAt: DataTypes.DATE,
       updatedAt: DataTypes.DATE,
     },
